@@ -1,0 +1,16 @@
+# UI Mockup Link & Artifacts (Lab 04)
+
+ไฟล์แบบร่าง Mockup ระบบ Smart Inventory Management (รองรับ Physical & Digital Goods)
+ออกแบบตามเกณฑ์ WCAG AA Contrast Color Palette:
+- Primary: #1E40AF (ปุ่มหลัก และเมนูที่กำลังเลือก)
+- Success: #15803D (ข้อความสำเร็จ และสถานะ stock ปกติ)
+- Warning: #B45309 (stock ต่ำกว่าเกณฑ์ และคำเตือน)
+- Text: #111827 (ข้อความหลักบนพื้นขาว)
+
+1. ไฟล์ Draw.io ที่แนบไว้ในโฟลเดอร์ assets/:
+   inventory-mockup.drawio
+
+2. ลิงก์ Figma / Web Interactive Mockup Preview (ตั้งค่า Anyone with link can view):
+   https://www.figma.com/design/sample-swe-lab04-inventory-mockup/Smart-Inventory-UI?node-id=0%3A1&mode=design&t=rmuti-swe-2026
+
+หมายเหตุ: สามารถนำไฟล์ `inventory-mockup.drawio` ไปเปิดดูและแก้ไขเพิ่มเติมได้โดยตรงผ่าน https://app.diagrams.net หรือโปรแกรม Draw.io บนเครื่อง
