@@ -49,3 +49,10 @@ class Inventory:
         return sum(
             item.quantity * item.price for item in self._items.values()
         )
+
+    def low_stock_items(self, threshold: int) -> list[str]:
+        if threshold < 0:
+            raise ValueError("threshold ต้องไม่ติดลบ")
+        return sorted(
+            [item.name for item in self._items.values() if item.quantity <= threshold]
+        )
